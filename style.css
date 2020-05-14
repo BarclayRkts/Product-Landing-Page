@@ -1,0 +1,268 @@
+body{
+    letter-spacing: 5px;
+    font-family: serif;
+}
+
+/*------------------------------NavBar------------------------------------*/
+#pizzaLogo{
+    height: auto;
+    width: auto;
+    max-height: 60px;
+    max-width: 200px;
+}
+
+.navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+}
+
+
+/*------------------------------Header------------------------------------*/
+header {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(pizza8.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+.text-box {
+    position: absolute;
+    width: 90%;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+#pizzaHead{
+    text-transform: uppercase;
+    font-size: 45px;
+    
+}
+
+i{
+    padding-bottom: 20px;
+    display: block;
+    font-size: 15px;
+}
+
+/*------------------------------Button------------------------------------*/
+.btn:link,
+.btn:visited,
+input[type=submit] {
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 300;
+  border-radius: 150px;
+   -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+  background: white;
+  color: black; 
+  font-size: 90%;
+  margin-right: 20px;
+}
+
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+  background-color: #CB4335;
+  color: #fff;
+  transition: 0.3s;
+}
+
+
+/*------------------------------Quality Section----------------------*/
+#features{
+    background-color: white;
+    height: 40vh;
+    padding-top: 20px;
+    color: #CB4335;
+}
+
+#featuresTitle{
+    text-align: center;
+    font-size: 40px;
+    color: #CB4335;
+}
+
+.text-info{
+    text-align: center;
+    margin-top: 10px;
+    height: 300px;
+    width: 50%;
+    color: #CB4335;
+    
+}
+
+#treeIcon{
+    padding-top: 15px;
+    display: block;
+    font-size: 50px;
+    color: #CB4335;
+    padding-bottom: 5px;
+}
+
+.qualityInfo{
+    text-align: center;
+    color: black;
+}
+
+.subfeaturesTitle{
+    color: black;
+    font-weight: bold;
+}
+
+
+/*------------------------------Products----------------------*/
+#products{
+    background-color: #E5E7E9 ;
+    height: 140vh;
+}
+
+#productTitle{
+    text-align: center;
+    font-size: 40px;
+    color: #CB4335;
+}
+
+.product-info{
+    color: black;
+    text-align: center;
+    height: 200px;
+    width: 80%;
+    border: 2px solid green;
+}
+#pics{
+    margin:10px;
+    height: 150px;
+    margin-left: 120px;
+    
+}
+.box{
+    display: inline-block;
+    margin-left: 120px;
+    padding-top:10px;
+    padding-bottom: 80px;
+}
+
+.row-products{
+    text-align: center;
+}
+
+@media screen and (max-width: 500px){
+    body{
+        background-color: green;
+    }
+}
+
+/*------------------------------Video----------------------*/
+#video{
+    background-color: white;
+    height: 53vh;
+    text-align: center;
+}
+#videoTitle{
+    color: #CB4335;
+    padding: 30px;
+    font-size: 40px;
+}
+/*------------------------------Prices----------------------*/
+#get-started{
+    background-color: #E5E7E9 ;
+    height: 60vh;
+    padding-top: 20px;
+    color: #CB4335;
+}
+#pricesTitle{
+    color: #CB4335;
+    text-align: center;
+    font-size: 40px;
+}
+
+.prices{
+    border: 2px solid gray;
+    height: 380px;
+    width: 50px;
+}
+.priceSubTitle{
+    padding: 15px 0px 0px 0px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+.priceTags{
+    font-size: 40px;
+    text-align: center;
+}
+
+.smPrice{
+    margin-right: 50px;
+}
+
+ul{
+    list-style: none;
+    color: black;
+}
+
+.icon-price{
+    color: #CB4335;
+}
+
+/*------------------------------Contact----------------------*/
+#contact{
+    height: 50vh;
+    background-color: white ;
+}
+
+#contactDiv{
+    
+}
+
+#contactTitle{
+    padding-top: 10px;
+    color: #CB4335;
+    text-align: center;
+    font-size: 40px;
+}
+
+#sendBtn{
+    background-color: #CB4335;
+    color: white;
+    border-radius: 8px;
+    width: 75px;
+    text-decoration: none;
+}
+
+/*------------------------------Footer----------------------*/
+
+footer{
+    height: 20vh;
+    background-color: #CB4335;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+}
+
+#about-info{
+    padding: 15px 15px ;
+    font-size: 10px;
+}
+
+#contact-info{
+    padding: 15px 15px 30px 30px;
+    font-size: 10px;
+}
+
+#foot{
+    text-align: center; 
+}
