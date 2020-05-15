@@ -84,7 +84,7 @@ input[type=submit]:active {
 /*------------------------------Quality Section----------------------*/
 #features{
     background-color: white;
-    height: 40vh;
+    height: fit-content;
     padding-top: 20px;
     color: #CB4335;
 }
@@ -126,7 +126,7 @@ input[type=submit]:active {
 /*------------------------------Products----------------------*/
 #products{
     background-color: #E5E7E9 ;
-    height: 140vh;
+    height: fit-content;
 }
 
 #productTitle{
@@ -149,7 +149,6 @@ input[type=submit]:active {
     
 }
 .box{
-    display: inline-block;
     margin-left: 120px;
     padding-top:10px;
     padding-bottom: 80px;
@@ -157,12 +156,6 @@ input[type=submit]:active {
 
 .row-products{
     text-align: center;
-}
-
-@media screen and (max-width: 500px){
-    body{
-        background-color: green;
-    }
 }
 
 /*------------------------------Video----------------------*/
@@ -176,10 +169,16 @@ input[type=submit]:active {
     padding: 30px;
     font-size: 40px;
 }
+
+iframe {
+    width: 100%;
+    height: 56.25%;
+}
+
 /*------------------------------Prices----------------------*/
 #get-started{
     background-color: #E5E7E9 ;
-    height: 60vh;
+    height: fit-content;
     padding-top: 20px;
     color: #CB4335;
 }
@@ -224,10 +223,6 @@ ul{
     background-color: white ;
 }
 
-#contactDiv{
-    
-}
-
 #contactTitle{
     padding-top: 10px;
     color: #CB4335;
@@ -265,4 +260,47 @@ footer{
 
 #foot{
     text-align: center; 
+}
+
+/* if width is less than 990px */
+@media screen and (max-width: 990px) {
+    #products{
+        background-color: #E5E7E9 ;
+    }
+    
+    #productTitle{
+        text-align: center;
+        font-size: 40px;
+        color: #CB4335;
+    }
+    
+    .product-info{
+        color: black;
+        text-align: center;
+        height: 200px;
+        width: 80%;
+        border: 2px solid green;
+    }
+    #pics{
+        margin:10px;
+        height: 150px;
+        margin-left: 270px;
+        text-align: center;
+    }
+    .box{
+        margin-left: 160px;
+        padding-top:10px;
+        padding-bottom: 80px;
+    }
+    
+    .row-products{
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 171px) {
+    #features{
+        background-color: red;
+    }
 }
